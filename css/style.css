@@ -1,0 +1,126 @@
+/* body {
+    background: linear-gradient(300deg, #DBDFEA, #F5F5F5, #EEEEEE, #F7F7F7);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  } 
+} */
+
+body {
+  background-color: #ECF2FF;
+}
+.back {
+    background-color: #A8DF8E;
+}
+
+.title-section {
+    background-color: #D2E0FB;
+    /* margin-top: 5%; */
+    padding: 4%;
+    /* border-radius: 10px; */
+}
+.input-section{
+  background-color: #f5f5f597;
+  margin-top: 5%;
+  padding: 2%;
+  /* height: 300px;
+  width: 400px; */
+  border-radius: 10px;
+}
+
+.result-section {
+  margin-top: 5%;
+  padding: 2%;
+  text-align: center;
+  border-radius: 10px;
+  color: blue;
+  background-color: rgba(173, 216, 230, 0.06);
+  /* background-color: rgba(255, 255, 255, 0.104); */
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.health-img {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  
+}
+
+/* .health-talk {
+ 
+  padding: 20px;
+  text-align: center;
+  border-radius: 9px;
+  border: 1px solid #A8DF8E;
+  font-size: 14px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Playpen Sans', cursive;
+  width: 17rem;
+  margin: auto;
+  margin-bottom: 8px;
+} */
+
+.health-card-inner {
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 13px;
+  width: 14rem;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Playpen Sans', cursive;
+  margin: auto;
+  margin-bottom: 8px;
+  
+}
+/* This code below is what style the whole div i.e setting the card to the center */
+.health-card-body {
+  
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+
+.health-card-inner-1 {
+  background-color: #D2E0FB;
+}
+
+.health-card-inner-2 {
+  background-color: #fffa73b4;
+}
+
+.health-card-inner-3 {
+  background-color: #a8df8eb8;
+}
+
+.health-section {
+  padding: 50px;
+  background-color: white;
+}
+
+.under {
+  color: purple;
+  
+}
+
+.good {
+  text-align: center;
+  color: yellow;
+  
+}
+
+.over {
+  text-align: center;
+  color: red;
+}
